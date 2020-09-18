@@ -1,0 +1,141 @@
+
+body{
+    padding:0;
+    margin:0;
+    background-color:#FFFFE0;
+}
+
+#logo-home {
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+#imagem-header {
+   height:215px;
+   width:100vw;
+  margin-top:28px
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  display: block;
+}
+
+.botao-enviar {
+    background-color: #DB7093;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    display: block;
+}
+.center-text {
+    text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.dropbtn {
+    background-color:  #FFFFE0;
+    color: black;
+    padding: 5px;
+    font-size:15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: absolute;
+    top:0;
+    right:0;
+    margin:0;
+}
+ h1,h2 {
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+.dropdown-content {
+    right:0;
+    left:auto;
+    text-align: center;
+    display: none;
+    position: absolute;
+    background-color: #FFFFE0;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:#DB7093}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+#facebook_logo {
+    position: relative;
+    height:50px
+}
+
+#instagram_logo {
+    position: relative;
+    height:50px
+}
+
+#twitter_logo {
+    position: relative;
+    height:50px
+}
+
+#footer {
+    
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+
+ }
+
+input{
+    width:100%;
+}
+
+input:focus {
+    background-color:#DB7093;
+  }
+
+.produtos {
+    height:200px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+  }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    padding:10px;
+    margin:10px;
+  }
+  
+th {
+    background-color: #DB7093;
+    color: white;
+  }
+
+  .funcionarios {
+    height:200px;
+  }

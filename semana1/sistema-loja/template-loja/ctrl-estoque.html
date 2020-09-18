@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="sistema-loja.css">
     <title>Controle de Estoque</title>
 </head>
 <body>
-    <div>
-        <p>McDonalds</p>
+    <div class="dropdown">
+        <button class="dropbtn">Saiba Mais</button>
+        <div class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="add-produto.html">Adicionar Produtos</a>
+            <a href="funcionarios.html">Funcionários</a>
+        </div>
     </div>
-    
+
     <div>
-        <a href="index.html">Página Inicial</a>
-        <a href="ctrl-estoque.html">Controle de Estoque</a>
-        <a href="add-produto.html">Adicionar Produto</a>
-        <a href="funcionarios.html">Funcionários</a>
-    </div>
+        <img src="imagens/mcdonalds-logo.png" alt="logo do McDonalds" id="logo-home">
+        <img src="imagens/header-home.jpg" alt="casal comendo batata frita" id="imagem-header">
+    </div>   
 
     <h2>Controle de Estoque</h2>
 
@@ -29,41 +33,49 @@
         </tr>
 
         <tr>
-            <td><img src="imagens/big_mac.png" alt="Big Mac"/></td>
+            <td><img src="imagens/big_mac.png" alt="Big Mac" class="produtos"></td>
             <td>Big Mac</td>
             <td> R$30 </td>
             <td> 248 </td>
         </tr>
 
         <tr>
-            <td><img src="imagens/top_sundae.png" alt="Top Sundae"/></td>
+            <td><img src="imagens/top_sundae.png" alt="Top Sundae" class="produtos"></td>
             <td> Top Sundae </td>
             <td> R$8 </td>
             <td> 82 </td>
         </tr>
 
         <tr>
-            <td><img src="imagens/mcnuggets.png" alt="McNuggets"/></td>
+            <td><img src="imagens/mcnuggets.png" alt="McNuggets" class="produtos"></td>
             <td> McNuggets </td>
             <td> R$10 </td>
             <td> 200 </td>
         </tr>
 
         <tr>
-            <td><img src="imagens/mcfritas.png" alt="Mc Fritas"/></td>
+            <td><img src="imagens/mcfritas.png" alt="Mc Fritas" class="produtos"></td>
             <td> McFritas </td>
             <td> R$7 </td>
             <td> 390 </td>
         </tr>
         
         <tr>
-            <td><img src="imagens/cbo.png" alt="Lanche CBO"/></td>
+            <td><img src="imagens/cbo.png" alt="Lanche CBO" class="produtos"></td>
             <td> CBO </td>
             <td> R$35 </td>
             <td> 1 </td>
         </tr>
        
     </table>
+    <div id="footer">
+        <p>Siga-nos nas redes sociais!</p>
+        <a href="https://www.facebook.com/McDonaldsBrasil/" target="_blank"><img src="imagens/facebook_logo.png" alt="Logo do Facebook" id="facebook_logo"></a>
+        <a href="https://www.instagram.com/mcdonalds_br/?hl=en" target="_blank"><img src="imagens/instagram_logo.png" alt="Logo do Instagram" id="instagram_logo"></a>
+        <a href="https://twitter.com/mcdonalds_br?lang=en" target="_blank"><img src="imagens/twitter_logo.png" alt="Logo do Twitter" id="twitter_logo"></a>
+    </div>
+
+    
 
 </body>
 </html>

@@ -4,40 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="sistema-loja.css">
     <title>Funcionários</title>
 </head>
 <body>
-    <div>
-        <p>McDonalds</p>
+    <div class="dropdown">
+        <button class="dropbtn">Saiba Mais</button>
+        <div class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="add-produto.html">Adicionar Produtos</a>
+            <a href="funcionarios.html">Funcionários</a>
+        </div>
     </div>
-    
+
     <div>
-        <a href="index.html">Página Inicial</a>
-        <a href="ctrl-estoque.html">Controle de Estoque</a>
-        <a href="add-produto.html">Adicionar Produto</a>
-        <a href="funcionarios.html">Funcionários</a>
-    </div>
+        <img src="imagens/mcdonalds-logo.png" alt="logo do McDonalds" id="logo-home">
+        <img src="imagens/header-home.jpg" alt="casal comendo batata frita" id="imagem-header">
+    </div>   
+
 
     <h2>Funcionários</h2>
     <ul>
         <li>
            <h4>Ronald McDonald</h4> 
-           <img src="/imagens/ronald_mcdonald.png" alt="Ronald McDonald">
+           <img src="/imagens/ronald_mcdonald.png" alt="Ronald McDonald" class="funcionarios" >
         </li>
         <li>
             <h4>Grimace</h4> 
-           <img src="/imagens/grimace.png" alt="Grimace">
+           <img src="/imagens/grimace.png" alt="Grimace" class="funcionarios" id="grimace">
         </li>
         <li>
             <h4>Birdie</h4> 
-           <img src="/imagens/birdie.jpg" alt="Birdie">
+           <img src="/imagens/birdie.jpg" alt="Birdie" class="funcionarios">
         </li>
 
         <li>
             <h4>Hamburglar</h4> 
-           <img src="/imagens/hamburglar.jpg" alt="Hamburglar">
+           <img src="/imagens/hamburglar.jpg" alt="Hamburglar" class="funcionarios">
         </li>
     </ul>
-        
+    <div id="footer">
+        <p>Siga-nos nas redes sociais!</p>
+        <a href="https://www.facebook.com/McDonaldsBrasil/" target="_blank"><img src="imagens/facebook_logo.png" alt="Logo do Facebook" id="facebook_logo"></a>
+        <a href="https://www.instagram.com/mcdonalds_br/?hl=en" target="_blank"><img src="imagens/instagram_logo.png" alt="Logo do Instagram" id="instagram_logo"></a>
+        <a href="https://twitter.com/mcdonalds_br?lang=en" target="_blank"><img src="imagens/twitter_logo.png" alt="Logo do Twitter" id="twitter_logo"></a>
+    </div>
+
 </body>
 </html>
