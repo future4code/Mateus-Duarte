@@ -98,9 +98,7 @@ table{
 #container-para-comprar {
     background-color: #e7eb90;
     height:100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 #resto-container {
@@ -150,6 +148,10 @@ td button {
     border-right:none;
     border-bottom: 3px solid black;
 }
+#buscar:active{
+    background-color: white;
+    border: white;
+}
 
 #back-button {
     background-color: white;
@@ -182,4 +184,10 @@ td button {
 
 table{
     margin:auto;
+}
+
+#button-flex{
+    display: flex;
+  align-items: center;
+  justify-content: center;
 }
