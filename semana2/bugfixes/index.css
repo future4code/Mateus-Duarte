@@ -66,7 +66,9 @@ div img {
     height: 15px;
 }
 
-
+#alinhamento {
+    padding-top:100px;
+}
 /** 
   *
   *  ESTILOS HOME 
@@ -78,6 +80,12 @@ div img {
     color: white;
 }
 
+#container-de-descricao p{
+    vertical-align: middle;
+}
+#container-de-descricao  li, h3{
+    margin-top: 50px;
+}
 #container-de-descricao>ol {
     padding: 15px 0px;
 }
