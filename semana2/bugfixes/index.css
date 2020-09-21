@@ -179,3 +179,7 @@ td button {
     background-color: blue;
     color: white;
 }
+
+table{
+    margin:auto;
+}
