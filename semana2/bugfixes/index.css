@@ -143,7 +143,12 @@ td button {
     margin-top: 20px;
     height: 100px;
 }
-
+#buscar{
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    border-bottom: 3px solid black;
+}
 
 #back-button {
     background-color: white;
