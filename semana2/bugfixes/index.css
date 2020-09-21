@@ -44,15 +44,22 @@ div img {
     border-radius: 5px;
     font-size: 20px;
     color: white;
+    height:50px;
 }
+
 
 .botao-amarelo:hover {
     background-color: #c44f00;
 }
 
 .container {
-    height: 500px;
+    height: 519px;
     text-align: center;
+    vertical-align: middle;
+}
+
+.container p{
+    padding-top: 0;
 }
 
 .icone {
@@ -77,15 +84,26 @@ div img {
 
 #container-para-comprar {
     background-color: #e7eb90;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resto-container {
+    height: 280px;
+    background-color: #e7eb90;
 }
 
 #container-para-comprar>p {
     color: #c44f00;
-    padding: 100px 0;
+    padding: 0px 0;
     font-size: 60px;
 }
 
-
+#bora-comprar {
+    margin-top:20px;
+}
 /**
   *
   *  ESTILOS COMPRAR 
