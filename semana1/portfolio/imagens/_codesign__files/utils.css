@@ -1,0 +1,14 @@
+.white_font {
+    color: white;
+}
+
+.white_montserrat {
+    font-family: Montserrat;
+    color:white
+}
+
+.main_color_montserrat {
+    font-family: Montserrat;
+    font-style: normal;
+    color: #280a2d;
+}
