@@ -163,3 +163,13 @@ td button {
     height:100px;
     width:100px;
 }
+
+#tabela button:hover{
+    background-color: orange;
+    color: white;
+}
+
+#tabela button:active{
+    background-color: blue;
+    color: white;
+}
