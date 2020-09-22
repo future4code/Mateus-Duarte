@@ -1,0 +1,239 @@
+/* * header */
+
+.header {
+    overflow: hidden;
+    padding:20px 10px;
+    height:100px
+}
+.header a{
+    float:left;
+    color: #ff2b16;
+    text-align: center;
+    padding:20px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+    margin-right: 40px;
+    cursor: pointer;
+
+}
+.logo{
+    float:left;
+    height:100%;
+    margin-left:40px;
+
+}
+.header a:hover {
+    background-color:#ff2b16;
+    color: white;
+  }
+.header-right {
+    float:right;
+}
+#rcorners {
+    border-radius: 25px;
+    border: 2px solid #ff2b16;
+    padding: 15px;
+
+}
+
+/* * fonts */
+
+#time-new {
+    font-family: "Times New Roman", Times, serif;
+}
+#arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#lucida {
+    font-family: "Lucida Console", Courier, monospace;
+}
+#verdana {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+/* * posição imagem */
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+/* * Introdução */
+
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 550;
+}
+.subtitulo {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+/* * Quem sou eu */
+
+.colored{
+    background-color:#ff2b16;
+}
+
+.titulo-branco{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+}
+
+.subtitulo-branco{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding:10px 250px;
+}
+
+/* * Ensino */
+
+.ensino {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img-ensino {
+    flex-shrink: 1;
+    height: 250px;
+
+    padding:1000;
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+.img-ensino:hover{
+    opacity: 1.0;
+    transition:opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
+h3 { 
+    text-align: center;
+    font-size: 35px;
+    font-weight: 550;
+
+}
+
+/* * Links*/
+
+a:link {
+    color:#ff2b16;
+    text-decoration: none;
+}
+a:visited {
+    color:#ff2b16;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #cc1100;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  a:active {
+    color: #660900;
+    text-decoration: none;
+  }
+
+
+hr {
+    border-top: 1px solid #ff2b16;
+}
+
+.footer {
+    left: 0;
+    bottom:0;
+    width: 100%;
+    background-color:#ff2b16;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logos {
+    height: 50px;
+
+    padding:1000;
+    
+}
+.logos:hover{
+    width:80px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+#construcao{
+    margin-top: 400px;
+}
+
+#fale {
+    height:300px;
+}
+
+#digital{
+    height:100%;
+    width:20%;
+}
+.input-superior{
+    width: 100%;
+    height: 50px;
+    margin:8px;
+    border: 2px solid gray;
+
+}
+
+.input-inferior{
+    width:100%;
+    height:200px;
+    margin:8px;
+    border: 2px solid gray;
+}
+
+input, label {
+    display: block;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    
+}
+
+.botao-enviar{
+    background-color: white;
+    border: none;
+    color: #ff2b16;;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 16px 2px;
+    border-radius: 25px;
+    border: 2px solid #ff2b16;
+    padding: 15px;
+    cursor: pointer;
+    width:200px;
+
+
+}
+
+.botao-enviar:hover {
+    background-color:#ff2b16;
+    color: white;
