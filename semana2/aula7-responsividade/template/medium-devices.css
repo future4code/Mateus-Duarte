@@ -1,0 +1,105 @@
+@media screen and (min-device-width:421px) and (max-device-width:800px) {
+    body {
+        width: 130vw;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+    
+    
+
+    #main-container{
+        display:flex;
+        height:130vh;
+        width: 100vw;
+        flex-flow: column;
+        
+        justify-content: space-around;
+        align-items: center;
+       
+    }
+    #color-flex{
+        display:flex;
+        flex-flow: row;
+        height:70vh;
+        width: 100vw;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;}
+
+    #black-flex{
+    display:flex;
+    flex-flow: column;
+    height:22vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#white-flex{
+    display:flex;
+    flex-flow: row;
+    height:33vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+    #first-block {
+        background-color: red;
+      
+        width: 100vw;
+        height: 9vh;
+    }
+    
+    .blue-block {
+        width: 42.5vw;
+        height: 14vh;
+        background-color: blue;
+       
+    
+    }
+    
+    .yellow-block {
+            
+        width: 42.5vw;
+        height: 14vh;
+       
+        background-color: yellow;
+       
+    }
+    
+    .green-block {
+            
+        width: 90vw;
+        height: 14vh;
+       
+        background-color: green;
+    
+       
+    }
+    
+    .black-block {
+        width: 42.5vw;
+        height: 28vh;
+       
+        background-color: black;
+       
+    }
+    
+    .white-block {
+        width: 42.5vw;
+        height: 14vh;
+        
+        background-color: white;
+        
+        
+    }
+
+    #block_eleven{
+        width:  90vw;
+    }
+  }
