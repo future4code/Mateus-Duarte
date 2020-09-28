@@ -10,7 +10,7 @@
         vertical-align: center;
         align-items: center;
         color: white;
-        margin: 1vh 5vw 0 3vw;
+        margin: 1vh 5vw 0 5vw;
     }
     #o-que-e-section p{
         margin:  0 ;
@@ -18,7 +18,7 @@
         letter-spacing: 0.01em;
         line-height: 1.7em;
         width: 50vw;
-        margin: 1vh 0 5vh 3vw;
+        margin: 1vh 0 5vh 5vw;
         justify-content: center;
         width: 100%;
     }
