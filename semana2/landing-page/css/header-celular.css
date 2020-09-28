@@ -1,0 +1,64 @@
+@media screen and (min-device-width : 320px) and (max-device-width : 420px) {
+    nav > div >img:nth-child(2){
+        width:16vw;
+        margin: 0;
+    }
+    #logo{
+        width: 10vw;
+        height: 5vh;
+        margin: 3vh 0vw 3vh 15vw;}
+    
+    nav a{
+        color: #57656E;;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:1.5vh;}
+    
+    nav > div:nth-child(2){
+        width: 30vw;
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-right: 13vw;
+        }
+    header{
+        background-image: url(../assets/header-image.png);
+        background-position: center center;
+        background-repeat: no-repeat;            
+        background-attachment: fixed;
+        background-size: cover;
+        height: 80vh;
+        width:100%
+        }   
+    header h1{
+        text-align: center;
+        margin:20vh 0 10vh 0;
+    
+        font-size: 5vh;
+        letter-spacing: 0.1em;    
+        }
+    #header-link-quero-alugar {
+        display:flex;
+        flex-direction: row;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        background-color: #ff5c5c;
+        font-size:2.2vh;
+        padding: 1em;
+        border-radius: 1em;
+        border: none;
+        width: 30vw;
+        vertical-align: center;
+        align-items: center;
+        }
+}
+    
+
+
+
+
+    
+        

@@ -1,21 +1,24 @@
 #o-que-e-section{
     display: flex;
-    height: 80vh;
+    height: 90%;
+    justify-content: space-between;
 
 }
 
 #o-que-e-section h2{
     font-weight: 600;
-    margin: 5vh 5vw 0 5vw;
+    margin: 2vh 0 2vh 3vw;
     font-size: 5vh;
 
 }
 
 #o-que-e-section p{
-    margin: 5vh 5vw 5vw;
-    font-size: 1.5em;
+    margin:  0 ;
+    font-size: 3vh;
     letter-spacing: 0.01em;
     line-height: 1.7em;
+    width: 50vw;
+    margin: 1vh 0 5vh 3vw;
 }
 
 
@@ -33,7 +36,7 @@
     vertical-align: center;
     align-items: center;
     color: white;
-    margin: 1vh 5vw;
+    margin: 1vh 5vw 0 3vw;
 }
 #o-que-e-text{
     height: 100%;
@@ -42,3 +45,6 @@
     justify-content: flex-start;
 }
 
+#o-que-e-link-alugue-agora:hover{
+    background-color: #ff0000;
+}
