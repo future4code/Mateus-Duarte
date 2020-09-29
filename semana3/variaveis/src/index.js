@@ -46,4 +46,5 @@ array = [pergunta1, pergunta2, pergunta3]
 array2 = [true, false, true]
 console.log(array[0]+array2[0])
 console.log(array[1]+array2[1])
-console.log(array[2]+array2[2])
+console.log(true && "true")
+
