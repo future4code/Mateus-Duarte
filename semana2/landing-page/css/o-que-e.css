@@ -23,7 +23,9 @@
 
 
 #o-que-e-section img{
-    margin:0;
+    margin:0 10vw 0 0;
+    width: 30vw;
+    height: 50vh;
 }
 #o-que-e-link-alugue-agora{
     background-color: #ff5c5c;
