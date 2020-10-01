@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/o-que-e.css">
+    <link rel="stylesheet" href="../css/o-que-e-celular.css">
+    <link rel="stylesheet" href="../css/contato.css">
+    <link rel="stylesheet" href="../css/contato-celular.css">
+    <link rel="stylesheet" href="../css/header-celular.css">
+    <link rel="stylesheet" href="../css/como-funciona.css">
+    <link rel="stylesheet" href="../css/como-funciona-celular.css">
+    <link rel="stylesheet" href="../css/modelo-section-celular.css">
+    <link rel="stylesheet" href="../css/modelo-section.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/footer-celular.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <title>4cars</title>
+</head>
+<body>
+    <!-- *Header -->
+    <header>
+        <nav>
+            <div>
+                <img src="../assets/4cars.png" alt="logo 4cars" id="logo" class="zoom">
+                <img src="../assets/4cars-letters.png" alt="">
+            </div>
+            <div>
+                <a href="#como-funciona-section">como funciona?</a>
+                <a href="#modelo-section">modelos</a>
+                <a href="#contato-section">contato</a>
+            </div>
+        </nav>
+        <h1>Alugue carros de uma<br>forma moderna!</h1>
+        <a href="#contato-section" id="header-link-quero-alugar" class="zoom">Quero Alugar!</a>
+    </header>
+    <!-- *o que é a 4cars -->
+    <section id="o-que-e-section">
+        <div id="o-que-e-text">
+            <h2>nosso carro, sua chance</h2>
+            <p>Alugue seu carro preferido de uma forma fácil e ágil! <br> A 4cars oferece uma grande variedade dos melhores <br>carros do mercado de forma pratica, e o melhor de tudo, <br>100% digital! <br><br>
+            Você não precisa mais ir até uma locadora, esperar na fila<br> e gastar seu tempo precioso. Chega de perrengue! <br> Preencha nosso formulário e receba nossas opções por email!</p>
+            <a href="#contato-section"id="o-que-e-link-alugue-agora" class="zoom">Alugue agora!</a>
+        </div>
+        <img src="../assets/car.gif" alt="">
+    </section>
+    
+    <!-- *como funciona -->
+    <section id="como-funciona-section">
+        <h2>Alugar um carro agora é fácil!</h2>
+        <div id="como-funciona-flex">
+            <div>
+                <img src="../assets/como-funciona-img1.png" alt="imagem mão segurando carro" class="zoom">
+                <h4>Escolha o tipo de carro</h4>
+            </div>
+            <div>
+                <img src="../assets/como-funciona-img2.png" alt="imagem email" class="zoom">
+                <h4>Receba o catálogo por email</h4>
+            </div>
+            <div>
+                <img src="../assets/como-funciona-img3.png"  alt="imagem chave" class="zoom">
+                <h4>Alugue o melhor!</h4>
+            </div>
+        </div>
+    </section>
+    <!-- *modelos -->
+    <section id="modelo-section">
+        <h2>Grande variedade de modelo de carros!</h2>
+        <div id="modelo-flex">
+            <div>
+                <img src="../assets/modelo-popular.jpg" alt="imagem fusca laranja" class="zoom2" id="modelo-img">
+                <h4>Carros Populares</h4>
+                <p>Fiat Uno</p>
+                <p>Hyundai HB20</p>
+                <p>Volkswagen Gol </p>
+                <p>Ford Ka</p>
+            </div>
+            <div>
+                <img src="../assets/modelo-luxo.png" alt="imagem carro vermelho" class="zoom2" id="modelo-img">
+                <h4>Carros de Luxo</h4>
+                <p>Lamborghini Aventador</p>
+                <p>Ferrari F12</p>
+                <p>Maserati Quattroporte V8</p>
+                <p> Audi R8</p>
+            </div>
+        </div>
+    </section>
+    <!-- *contato -->
+    <section id="contato-section">
+       <form action="#" class="zoom2">
+            <h3>Vamos encontrar o carro <br>perfeito para você!</h3>
+            <div class="contato-form-row">
+               <label for="name">Nome completo</label>
+               <input type="text" id="name" name="name" placeholder="Digite seu nome completo">
+            </div>
+            <div class="contato-form-row">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+            </div>
+            <div class="contato-form-row">
+                <label for="origem">Local de origem</label>
+                <select id="origem" name="origem">
+                    <option value="São-Paulo-SP">São-Paulo-SP</option>
+                    <option value="Belo-Horizonte-MG">Belo-Horizonte-MG</option>
+                    <option value="Rio-de-Janeiro-RJ">Rio-de-Janeiro-RJ</option>
+                    <option value="Porto-Alegre-RS">Porto-Alegre-RS</option>
+                    <option value="Curitiba-PR">Curitiba-PR</option>
+                </select>
+            </div>
+            <div class="contato-form-multiple-choice">
+                <p>Qual seu modelo ideal?</p>
+                <div class="contato-form-multiple-choice-row">
+                    <input type="radio" name="modelo-popular" id="modelo-popular">
+                    <label for="modelo-popular">Carros populares </label>
+                </div>
+                <div class="contato-form-multiple-choice-row">
+                    <input type="radio" name="transporte-de-luxo" id="transporte-de-luxo">
+                    <label for="transporte-de-luxo">Transporte de luxo </label>
+                </div>
+            </div>
+            <div class="contato-form-checkbox">
+                <input type="checkbox" id="ofertas-checkbox" name="ofertas-checkbox" value="ofertas-checkbox">
+                <span class='checkmark'></span>
+                <label for="ofertas-checkbox"> Quero receber ofertas e novidades!</label>
+            </div>
+            <button class="zoom2">ENVIAR <img src="../assets/send.png" alt=""></button>
+       </form> 
+       <div id="contato-flex">
+           <h2>Cuide da sua viagem e deixe <br> o carro com a <strong>4cars</strong>!</h2>
+           <img src="../assets/contato-img.png" alt="mulher dirigindo">
+       </div>
+    </section> 
+    <!-- *footer -->
+    <footer>
+        <a href="https://www.facebook.com/" target=”_blank” ><img src="../assets/facebook.png" alt=""></a>
+        <a href="https://www.instagram.com/" target=”_blank” ><img src="../assets/instagram.png" alt=""></a>
+        <a href="https://www.twitter.com/" target=”_blank” > <img src="../assets/twitter.png" alt=""></a>
+        <a href="https://www.youtube.com/" target=”_blank” ><img src="../assets/youtube.png" alt=""></a>
+    </footer>
+</body>
+</html>

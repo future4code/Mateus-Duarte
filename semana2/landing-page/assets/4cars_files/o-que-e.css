@@ -1,0 +1,50 @@
+#o-que-e-section{
+    display: flex;
+    height: 90%;
+    justify-content: space-between;
+
+}
+
+#o-que-e-section h2{
+    font-weight: 600;
+    margin: 2vh 0 2vh 5vw;
+    font-size: 5vh;
+
+}
+
+#o-que-e-section p{
+    margin:  0 ;
+    font-size: 3vh;
+    letter-spacing: 0.01em;
+    line-height: 1.7em;
+    width: 50vw;
+    margin: 1vh 0 5vh 5vw;
+}
+
+
+#o-que-e-section img{
+    margin:0;
+}
+#o-que-e-link-alugue-agora{
+    background-color: #ff5c5c;
+    font-size:2vh;
+    padding: 1em;
+    border-radius: 1em;
+    border: none;
+    width: 8vw;
+    text-align: center;
+    vertical-align: center;
+    align-items: center;
+    color: white;
+    margin: 1vh 5vw 0 5vw;
+}
+#o-que-e-text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#o-que-e-link-alugue-agora:hover{
+    background-color: #ff0000;
+}
