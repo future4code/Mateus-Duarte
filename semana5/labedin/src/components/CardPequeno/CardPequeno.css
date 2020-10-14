@@ -1,0 +1,22 @@
+.smallcard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    height: 130px;
+}
+#smallcard-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+#smallcard-flex img{
+    width: 40px;
+    margin-right: 30px;
+    border-radius: 3%;
+    
+}
