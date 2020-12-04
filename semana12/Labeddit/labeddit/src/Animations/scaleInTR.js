@@ -17,4 +17,4 @@ export const scaleInTR = keyframes`
     opacity: 1;
   }
 
-`
+`;
